@@ -6,6 +6,7 @@ def total_calc(total_cost,tip_percent):
 total_calc(150,20)
 
 def seating_arrangement(guests):
+    '''This is a recursive function to find the number of seating arrangements for guests.'''
     if guests==0 or guests == 1:
         return 1
     else:
